@@ -1,0 +1,39 @@
+import React, { Component } from "react";
+import "./.scss";
+import  from "..//";
+
+class  extends Component {
+  render() {
+    return (
+        <div className="">
+            <div className=""></div>
+        </div>
+         );
+  }
+}
+export default ;
+
+<div className="gallery-view">
+              {galleryPic.map(items => (
+                <div key={items.name1} className="card img-fluid">
+                  <img className="card-img-top tab1" src={items.img} />
+
+                  <div className="card-img-overlay-tab">
+                    <div className="icon-tab">
+                      <h4 className="card-title tab">{items.name}</h4>
+                      <p className="card-text tab">{items.name1}</p>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+    
+for routing:
+import { createBrowserHistory } from 'history';
+import { Route, Switch, Router } from 'react-router-dom';
+
+link:
+import { Link } from "react-router-dom";
+<Link to="/Maths" className="link-page">
+                  Math
+                </Link>
