@@ -5,9 +5,26 @@ class Nav extends Component {
   render() {
     return (
       <div className="navbar-qs">
-        <nav className="navbar fixed-top navbar-light ">
-          <span className="navbar-brand mb-0 h1 logo">QuickSilver</span>
-          <span className="navbar-brand mb-0 h1">Contact Us</span>
+        <nav className="navbar navbar-expand-lg navbar-light ">
+          <a class="navbar-brand" href="#">
+            QuickSilver
+          </a>
+          <button
+            className="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon" />
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <a class="nav-link" href="#">
+              Contact Us
+            </a>
+          </div>
         </nav>
         <div className="header">
           <div className="header-flex">
@@ -19,6 +36,9 @@ class Nav extends Component {
                 Have a business idea? and looking for a trusted developer. Let
                 us help you.
               </p>
+              <button type="button" class="btn btn-dark">
+                Contact Us
+              </button>
             </div>
             <div className="header-img">
               <div className="h-icons">

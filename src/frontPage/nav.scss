@@ -7,11 +7,12 @@
   z-index: 999;
   width: 100%;
   // padding: 0rem 0rem;
-  .navbar-brand.mb-0.h1 {
+  .nav-link {
     color: white;
   }
-  .navbar-brand.mb-0.h1.logo {
+  .navbar-brand {
     font-size: 35px;
+    color: white;
   }
 }
 .header {
@@ -30,6 +31,7 @@
       padding-top: 5%;
       @media all and (max-width: 600px) {
         width: 100%;
+        margin-top: 8%;
       }
       h1 {
         position: relative;

@@ -23,6 +23,11 @@ const msg = [
     para: "We know marketing too. Your website come with basic SEO."
   }
 ];
+const pic = [
+  "https://quicksilverteam.com/assets/portfolio/coinmint.png",
+  "https://quicksilverteam.com/assets/portfolio/numberz.png",
+  "https://quicksilverteam.com/assets/portfolio/st.png"
+];
 
 class Coverpage extends Component {
   render() {
@@ -56,6 +61,45 @@ class Coverpage extends Component {
               className="m-pic"
               src="https://quicksilverteam.com/assets/uploads/2018/03/mobile-2.png"
             />
+          </div>
+        </div>
+        <div className="port-folio">
+          <div className="title">
+            <div className="big-title">PORTFOLIO</div>
+            <h2>Websites we have built</h2>
+          </div>
+          <div className="p-flex">
+            {pic.map(photo => (
+              <div className="p-pic-box">
+                <img width="410" height="250" src={photo} />
+              </div>
+            ))}
+          </div>
+        </div>
+        <div className="technologies">
+          <div className="title">
+            <div className="big-title">Technologies</div>
+            <h2>Things we build</h2>
+          </div>
+          <div className="t-flex">
+            <div className="t-box">
+              <div className="icon-box">
+                <i class="fa fa-android tech" />
+              </div>
+              <h5>Mobile Apps</h5>
+            </div>
+            <div className="t-box">
+              <div className="icon-box">
+                <i class="fa fa-desktop tech" />
+              </div>
+              <h5>Web Apps</h5>
+            </div>
+            <div className="t-box">
+              <div className="icon-box">
+                <i class="fa fa-globe tech" />
+              </div>
+              <h5>Scalable Apps</h5>
+            </div>
           </div>
         </div>
       </div>

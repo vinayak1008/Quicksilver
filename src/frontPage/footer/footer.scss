@@ -1,0 +1,31 @@
+.footer-page {
+  background-image: url(https://quicksilverteam.com/assets/uploads/2018/03/8.jpg);
+  margin-top: 5%;
+  .footerPage {
+    padding-top: 5%;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    .f-left {
+      h3 {
+        color: white;
+        font-weight: 800;
+      }
+      p {
+        color: white;
+        font-size: 18px;
+        margin-bottom: 7px;
+      }
+    }
+    .f-right {
+      form {
+        .form-control.msg {
+          height: 100px;
+        }
+      }
+    }
+  }
+}
