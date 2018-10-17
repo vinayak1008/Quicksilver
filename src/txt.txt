@@ -13,6 +13,8 @@ class  extends Component {
 }
 export default ;
 
+
+
 <div className="gallery-view">
               {galleryPic.map(items => (
                 <div key={items.name1} className="card img-fluid">

@@ -1,0 +1,115 @@
+.cover-page {
+  margin-top: 15%;
+  @media all and (max-width: 600px) {
+    margin-top: 5%;
+  }
+  .title {
+    position: relative;
+    text-align: center;
+    .big-title {
+      position: absolute;
+      top: -114px;
+      width: 100%;
+      font-size: 130px;
+      font-weight: 800;
+      color: #f6f6f6;
+      text-transform: uppercase;
+      @media all and (max-width: 600px) {
+        font-size: 50px;
+        position: relative;
+        top: 0px;
+      }
+    }
+    h2 {
+      position: relative;
+      color: #333333;
+      font-size: 43px;
+      font-weight: 700;
+      line-height: 1.2em;
+    }
+  }
+  .box {
+    width: 100%;
+    margin-top: 3%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    @media all and (max-width: 600px) {
+      display: block;
+    }
+    .card-box {
+      //   border: 1px solid black;
+      position: relative;
+      display: block;
+      padding: 60px 35px;
+      background-color: #f7f7f7;
+      width: 27%;
+      height: 100%;
+      margin-right: 1%;
+      @media all and (max-width: 600px) {
+        width: 75%;
+        margin: auto;
+        margin-bottom: 5%;
+      }
+      h6 {
+        font-weight: 800;
+        padding-top: 5%;
+        padding-bottom: 3%;
+      }
+      p {
+        color: #666666;
+        font-size: 14px;
+      }
+    }
+    .box-container:hover {
+      transform: translateZ(0);
+      box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+      vertical-align: middle;
+      transition-property: transform;
+      transition-duration: 0.3s;
+    }
+  }
+  .middle {
+    background-color: #1c1c1c;
+    padding-top: 10%;
+    display: flex;
+    @media all and (max-width: 600px) {
+      display: block;
+    }
+    .m-left {
+      position: relative;
+      padding-left: 5%;
+      padding-top: 5%;
+      @media all and (max-width: 600px) {
+        padding-left: 0%;
+        padding-top: 0%;
+      }
+      .big-title {
+        position: absolute;
+        top: -50px;
+        font-size: 111px;
+        width: 100%;
+        font-weight: 800;
+        color: rgba(246, 246, 246, 0.03);
+        text-transform: uppercase;
+        @media all and (max-width: 600px) {
+          font-size: 50px;
+          position: relative;
+          top: 0px;
+        }
+      }
+      h2 {
+        position: relative;
+        color: #f6f6f6;
+        font-size: 43px;
+        font-weight: 700;
+        line-height: 1.2em;
+      }
+      p {
+        color: #666666;
+        font-size: 14px;
+      }
+    }
+  }
+}

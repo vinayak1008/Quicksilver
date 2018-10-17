@@ -1,0 +1,80 @@
+.navbar.navbar-light {
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 999;
+  width: 100%;
+  // padding: 0rem 0rem;
+  .navbar-brand.mb-0.h1 {
+    color: white;
+  }
+  .navbar-brand.mb-0.h1.logo {
+    font-size: 35px;
+  }
+}
+.header {
+  background-image: url(https://quicksilverteam.com/assets/uploads/2018/03/1.jpg);
+  width: 100%;
+  padding-top: 15%;
+  position: relative;
+  .header-flex {
+    display: flex;
+    flex-wrap: wrap;
+    .header-word {
+      width: 50%;
+      text-align: left;
+      padding-left: 8%;
+      padding-right: 8%;
+      padding-top: 5%;
+      @media all and (max-width: 600px) {
+        width: 100%;
+      }
+      h1 {
+        position: relative;
+        color: #ffffff;
+        font-size: 50px;
+        font-weight: 800;
+        line-height: 1.2em;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+      }
+      p {
+        position: relative;
+        color: #ffffff;
+        font-size: 16px;
+        line-height: 1.8em;
+        margin-bottom: 28px;
+      }
+    }
+    .header-img {
+      position: relative;
+      text-align: right;
+      @media all and (max-width: 600px) {
+        display: none;
+      }
+    }
+    .h-icons {
+      position: absolute;
+      left: -30px;
+      top: 90px;
+      z-index: 1;
+      h-pic1 {
+        position: relative;
+        max-width: 100%;
+      }
+    }
+
+    .h-mobile {
+      position: relative;
+      padding-left: 20%;
+      @media all and (max-width: 600px) {
+        padding-left: 0%;
+      }
+      h-pic2 {
+        max-width: 100%;
+      }
+    }
+  }
+}
