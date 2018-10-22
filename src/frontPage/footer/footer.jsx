@@ -29,7 +29,7 @@ class Footer extends Component {
                     type="email"
                     class="form-control"
                     id="inputEmail4"
-                    placeholder="Email"
+                    placeholder="Name"
                   />
                 </div>
                 <div class="form-group col-md-6">
@@ -38,7 +38,7 @@ class Footer extends Component {
                     type="password"
                     class="form-control"
                     id="inputPassword4"
-                    placeholder="Password"
+                    placeholder="Email"
                   />
                 </div>
               </div>
