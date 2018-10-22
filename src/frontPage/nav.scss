@@ -5,8 +5,7 @@
   left: 0px;
   top: 0px;
   z-index: 999;
-  width: 100%;
-  // padding: 0rem 0rem;
+  max-width: 100%;
   .nav-link {
     color: white;
   }
@@ -20,6 +19,7 @@
   width: 100%;
   padding-top: 15%;
   position: relative;
+  padding-bottom: 15px;
   .header-flex {
     display: flex;
     flex-wrap: wrap;
@@ -79,4 +79,12 @@
       }
     }
   }
+}
+#navbar {
+  position: fixed;
+  // background-color: black;
+  width: 100%;
+  top: 0;
+  transition: top 0.3s;
+  z-index: 2000;
 }

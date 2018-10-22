@@ -5,7 +5,7 @@ class Nav extends Component {
   render() {
     return (
       <div className="navbar-qs">
-        <nav className="navbar navbar-expand-lg navbar-light ">
+        <nav id="navbar" className="navbar navbar-expand-lg navbar-light ">
           <a class="navbar-brand" href="#">
             QuickSilver
           </a>
